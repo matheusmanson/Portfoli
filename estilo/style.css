@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+
+:root {
+
+    --color0:#3C0B61;
+    --color1:#5B24AD;
+    --color2:#5B4B61;
+
+    --font-padrao:
+    --font-2:
+    --font-3:
+}   
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to right ,#3C0B61,#8c46f5,#7b2fee);
+    display: flex;
+    height: 100vh;
+    box-shadow: 1px 1px rgba(95, 42, 95, 0.548);
+
+}
+
+header > div#divheader {
+    margin: auto;
+    width: 120px;
+ 
+}
+
+header > div#divheader > ul > li {
+    width: 80%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+
+  p.phome {
+    display: none;
+    margin: auto;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+span:hover > div.divinicio  p.phome{
+   display: block;
+}
+
+p.pschool {
+    display: none;
+    margin: auto;
+    padding: 2px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+span:hover > div.divschool  p.pschool{
+   display: block;
+}
+
+
+p.pex {
+    display: none;
+    margin: auto;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+span:hover > div.divex  p.pex{
+   display: block;
+}
+
+p.pphone {
+    display: none;
+    margin: auto;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+span:hover > div.divphone p.pphone{
+   display: block;
+}
+
+
+
+header > div#divheader > ul > li  >  a > span {
+    width: 55px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 40px;
+    background-image: linear-gradient(to top , #03b6fc, #3693c973, white);
+    box-shadow:  1px 2px  rgba(0, 0, 0, 0.5);
+   
+
+}
+
+span#idhome:hover {
+    background: rgba(245, 232, 232, 0.658);
+    color: #ff0303;
+    width: 55px;
+    padding: 5px;
+    height: 100px;
+    transition: 100ms linear;
+    
+}
+
+span#idschool:hover {
+    background: rgba(245, 232, 232, 0.658);
+    color: #ff0303;
+    width: 55px;
+    padding: 5px;
+    height: 145px;
+    transition: 100ms linear;
+    
+}
+
+span#idex:hover {
+    background: rgba(245, 232, 232, 0.658);
+    color: #ff0303;
+    width: 55px;
+    padding: 5px;
+    height: 145px;
+    transition: 100ms linear;
+    
+}
+
+span#idphone:hover {
+    background: rgba(245, 232, 232, 0.658);
+    color: #ff0303;
+    width: 55px;
+    padding: 5px;
+
+    height: 110px;
+    transition: 100ms linear;
+    
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right ,#3C0B61,#8c46f5,#7b2fee);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+    
+
+div#home{
+    background-color: #c1c5c777;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center; 
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
+    scroll-snap-align: start;
+    
+}
+
+div#qualificacoes {
+    display: flex;
+    flex-direction: column;
+    background-color: #c1c5c777;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center; 
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
+    scroll-snap-align: start;
+
+}
+
+div#graduaçoes {
+    display: flex;
+    flex-direction: column;
+    background-color: #c1c5c777;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center; 
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
+    scroll-snap-align: start;
+
+}
+
+div.top1 {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+div.top2 {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.39);
+    
+}
+
+
+img.eu{
+    border-radius: 100px;
+    width: 150px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+img.eu:hover{
+    border-radius: 100px;
+    width: 153px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.473);
+
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+     margin: 10px;
+    
+}
+
+p {
+    margin: 5px;
+}
+
+p.homep {
+    text-align: justify;
+    text-align: center;
+}
+
+p.gradup {
+    text-align: center;
+    margin: 10px;
+    text-align: justify;
+
+}
+
+
+div.homecontato {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+div.homecontato > div {
+    margin: 10px;
+
+}
+
+div.homecontato > div >  a > img {
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.404);
+    border-radius: 100%;
+}
+
+a.setaBaixo {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-image: url("../imagens/seta-para-baixo.png");
+    background-size: cover;
+    margin: auto;
+    position: relative;
+
+
+animation-name: setaBaixo;
+animation-duration: 1s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes setaBaixo{
+    0% {
+        top: 0px;
+    }
+    100%{
+        top: 10px;
+    }
+}

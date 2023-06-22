@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+:root {
+
+    --color0:#3C0B61;
+    --color1:#5B24AD;
+    --color2:#5B4B61;
+
+    --font-padrao:
+    --font-2:
+    --font-3:
+}   
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+div#sobregradu{
+    background-color: #c1c5c777;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center; 
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
+
+
+}
