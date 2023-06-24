@@ -30,6 +30,7 @@ header {
 header > div#divheader {
     margin: auto;
     width: 120px;
+    position: fixed;
  
 }
 
@@ -39,6 +40,7 @@ header > div#divheader > ul > li {
     padding: 5px;
     text-align: center;
     list-style-type: none;
+    
 }
 
 
