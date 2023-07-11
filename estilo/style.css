@@ -124,7 +124,7 @@ span#idschool:hover {
     background: rgba(245, 232, 232, 0.658);
     color: #ff0303;
     width: 55px;
-    padding: 5px;
+    padding: 10px;
     height: 145px;
     transition: 100ms linear;
     
@@ -134,8 +134,8 @@ span#idex:hover {
     background: rgba(245, 232, 232, 0.658);
     color: #ff0303;
     width: 55px;
-    padding: 5px;
-    height: 145px;
+    padding: 10px;
+    height: 150px;
     transition: 100ms linear;
     
 }
@@ -144,7 +144,7 @@ span#idphone:hover {
     background: rgba(245, 232, 232, 0.658);
     color: #ff0303;
     width: 55px;
-    padding: 5px;
+    padding: 10px;
 
     height: 110px;
     transition: 100ms linear;
