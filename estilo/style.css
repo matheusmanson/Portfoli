@@ -126,7 +126,7 @@ span#idschool:hover {
     width: 30px;
     padding: 1px;
     height: 145px;
-    transition: 100ms linear;
+    transition: 50ms linear;
     
 }
 
@@ -137,7 +137,7 @@ span#idex:hover {
     width: 30px;
     padding: 1px;
     height: 150px;
-    transition: 100ms linear;
+    transition: 50ms linear;
     
 }
 
@@ -148,7 +148,7 @@ span#idphone:hover {
     width: 30px;
     padding: 1px;
     height: 110px;
-    transition: 100ms linear;
+    transition: 50ms linear;
     
 }
 
