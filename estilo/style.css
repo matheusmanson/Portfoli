@@ -35,8 +35,8 @@ header > div#divheader {
 
 header > div#divheader > ul > li {
     width: 80%;
-    margin: 5px;
-    padding: 5px;
+    margin: auto;
+    padding: 20px 0px;
     text-align: center;
     list-style-type: none;
 }
