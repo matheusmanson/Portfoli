@@ -113,7 +113,7 @@ header > div#divheader > ul > li  >  a > span {
 span#idhome:hover {
     background: rgba(245, 232, 232, 0.658);
     color: #ff0303;
-    width: 55px;
+    width: 30px;
     padding: 1px;
     height: 100px;
     transition: 50ms linear;
@@ -123,7 +123,7 @@ span#idhome:hover {
 span#idschool:hover {
     background: rgba(245, 232, 232, 0.658);
     color: #ff0303;
-    width: 55px;
+    width: 30px;
     padding: 1px;
     height: 145px;
     transition: 100ms linear;
@@ -134,7 +134,7 @@ span#idschool:hover {
 span#idex:hover {
     background: rgba(245, 232, 232, 0.658);
     color: #ff0303;
-    width: 55px;
+    width: 30px;
     padding: 1px;
     height: 150px;
     transition: 100ms linear;
@@ -142,9 +142,10 @@ span#idex:hover {
 }
 
 span#idphone:hover {
+    margin: auto;
     background: rgba(245, 232, 232, 0.658);
     color: #ff0303;
-    width: 55px;
+    width: 30px;
     padding: 1px;
     height: 110px;
     transition: 100ms linear;
