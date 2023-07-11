@@ -22,7 +22,7 @@
 header {
     background-image: linear-gradient(to right ,#3C0B61,#8c46f5,#7b2fee);
     display: flex;
-    height: 100vh;
+    height: 100%;
     box-shadow: 1px 1px rgba(95, 42, 95, 0.548);
 
 }
