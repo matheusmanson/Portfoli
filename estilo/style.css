@@ -139,6 +139,17 @@ div#home{
     
 }
 
+div#expcv{
+    background-color: #c1c5c777;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center; 
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
+    scroll-snap-align: start;
+    
+}
+
 #home1:hover {
     background: #04e2ff88;
     cursor: pointer;
