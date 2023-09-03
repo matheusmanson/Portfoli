@@ -118,9 +118,7 @@ body {
 }
 
 main {
-    
-    
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
     
 }
@@ -352,6 +350,7 @@ div.homecontato > div >  a > img {
 div.homecontato > img :hover {
     size: 50px;
 }
+
 
 
 a.setaBaixo {
