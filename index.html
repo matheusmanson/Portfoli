@@ -61,14 +61,14 @@
         </div>
     </header>
     <main>
-        <div id="divmain">
+        <div>
 
             <div id="home">
                 <div>
                     <a href="#"><img src="imagens/eu.jpg" alt="eu" class="eu"></a>
                 </div>
-                <h1>Oi, Sou Matheus</h1>
-                <p class="homep">Estou começando a desenvolver sites, praticando HTML, CSS e Javascript</p>
+                    <h1>Oi, Sou Matheus</h1>
+                        <p class="homep">Estou começando a desenvolver sites, praticando HTML, CSS e Javascript</p>
                 <div class="homecontato">
                     <div><a href="#"><img src="imagens/wp.png" alt="whatsap"></a></div>
                     <div><a href="https://www.linkedin.com/in/matheusmanson/"><img src="imagens/lkdin.png"
@@ -77,20 +77,59 @@
                 </div>
             </div>
 
+            <div id="explist">
+                <div id="exp">
+                    <div><h1>EXPERIÊNCIA PROFISSIONAL</h1></div>
+                    <div><p class="homep">Estágio em Planejamento Digital</p></div>
+                    <div><p class="p1">Paschoalotto Jun. de 2023 – Atualmente</p></div>
+                    <div>
+                        <ul>
+                            <li><p class="plist">
+                                Execução dos processos de rotina garantindo que os
+                                    dados levantados para informações gerenciais
+                                    estejam precisos;
+                            </p></li>
+                            <li><p class="plist">Desenvolvimento de relatórios com informações
+                                atualizadas através de análises de indicadores,
+                                cumprindo prazos alinhados com a liderança;</p></li>
+                        </ul>
+                    </div>
+                    <div><p class="homep">Desenhista Mecânico</p></div>
+                    <div><p class="p1">Polidobra Engenharia de Corte e Dobra de Aço Abr. de 2021 – Jun. de 2023</p></div>
+                        <ul>
+                            <li>
+                                <p class="plist">Atuação como desenhista no segmento de projetos de
+                                    máquinas e equipamentos obedecendo normas
+                                    técnicas para detalhamento de projetos;</p>
+                            <li><p class="plist">
+                                Acompanhamento das fases do projeto com aprodução, realizando adaptações nos desenhos quando necessário.
+                            </p></li>
+                            </li>
+                        </ul>
+                        <div><p class="homep">Auxiliar de TI</p></div>
+                    <div><p class="p1">HD Brasil Soluções
+                        Out. de 2018 – Dez. de 2018</p></div>
+                        <ul>
+                            <li>
+                                <p class="plist">Atuação como auxiliar de TI no segmento de
+                                    tecnologia;</p>
+                            <li><p class="plist">
+                                Reparo e manutenção preventiva de HDs e equipamentos eletrônicos ;
 
-        </div>
+                            </p></li>
+                            </li>
+                        </ul>
+                
+                    </div>
+            </div>
+                
+                
 
-        <div id="exp">
-            <div>
                 
             </div>
 
 
-        </div>
-
-          
-
-
+    
 
         </div>
 
@@ -101,9 +140,38 @@
     </main>
 
 
+    <footer></footer>
 
+    <script>
+        const home1 = document.getElementById('home1');
+        const ex1 = document.getElementById('ex1')
+
+
+        const home = document.getElementById('home');
+        const exp = document.getElementById('exp')
+
+
+        home1.addEventListener("click", () => {
+           home.style.display = "block";
+           exp.style.display = "none";
+
+        });
+
+        ex1.addEventListener("click", () => {
+            exp.style.display = "block";
+            home.style.display = "none";
+            exp.style.opacity = 1;
+        
+           
+        });
+
+        
+
+        
+    </script>
+    
 </body>
 
-<footer></footer>
+
 
 </html>
